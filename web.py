@@ -8,6 +8,7 @@ def add_todo():
     todo_to_add = st.session_state["todo_to_add"] + "\n"
     todos.append(todo_to_add)
     functions.write_todos(todos)
+    st.session_state.
 
 st.title("Dan's ToDo App")
 st.subheader("Increasing productivity one task at a time")
