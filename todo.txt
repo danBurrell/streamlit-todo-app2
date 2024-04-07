@@ -1,0 +1,4 @@
+pyinstaller --onefile --windowed --clean gui.py
+Visit the new museum
+Help the neighbour
+Eat a steak
